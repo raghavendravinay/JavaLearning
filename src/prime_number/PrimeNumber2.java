@@ -7,7 +7,7 @@ public class PrimeNumber2 {
 	public static void main(String []args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a number");
-		int num=sc.nextInt();
+		int num=sc.nextInt(); // Prime Numbers: 1, 2, 3, 5, 7, 11, 13, 17, 19, 23....
 		boolean isPrime=false;
 		for(int i=2; i<num; i++) {
 			if(num%i==0) {
