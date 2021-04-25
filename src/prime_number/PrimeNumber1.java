@@ -10,7 +10,7 @@ public class PrimeNumber1 {
 		int num=sc.nextInt();
 		for(int i=2; i<num; i++) {
 			if(num%i==0) {
-				System.out.println(num+" is not a prime");
+				System.out.println(num+" is not a prime"); // Print numbers which are only not prime numbers
 				break;
 			}
 		}
