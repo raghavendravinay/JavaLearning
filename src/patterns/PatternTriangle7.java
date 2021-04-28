@@ -12,7 +12,7 @@ public class PatternTriangle7 {
 			for(int j=1; j<=num+1-i; j++) {
 				System.out.print(i+" ");
 			}
-			System.out.println("");
+			System.out.println("");	
 		}
 	}
 }
