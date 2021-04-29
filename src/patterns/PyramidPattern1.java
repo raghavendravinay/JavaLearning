@@ -14,7 +14,7 @@ public class PyramidPattern1 {
 				System.out.print(" ");
 			}
 			
-			for(int k=1; k<(i+i); k++) {
+			for(int k=1; k<2*i; k++) {
 				System.out.print("*");
 				
 			}
