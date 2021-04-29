@@ -17,5 +17,6 @@ public class PatternTriangle11 {
 			}
 			System.out.println(" ");
 		}
+		
 	}
 }
