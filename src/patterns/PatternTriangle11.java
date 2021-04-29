@@ -13,7 +13,7 @@ public class PatternTriangle11 {
 				System.out.print(" ");
 			}
 			for(int k=1; k<=i; k++) {
-				System.out.print(k);
+				System.out.print(i);
 			}
 			System.out.println(" ");
 		}
