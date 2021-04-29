@@ -12,7 +12,7 @@ public class PyramidPattern2 {
 			for(int j=1; j<=num-i; j++) {
 				System.out.print(" ");
 			}
-			for(int k=1; k<i+i; k++) {
+			for(int k=1; k<2*i; k++) {
 				System.out.print(i);
 			}
 			System.out.println(" ");
