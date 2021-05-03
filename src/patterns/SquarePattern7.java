@@ -2,7 +2,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public class SquarePattern10 {
+public class SquarePattern7 {
 
 	public static void main(String[] args)
 	{
