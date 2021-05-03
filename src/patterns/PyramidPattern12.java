@@ -8,15 +8,15 @@ public class PyramidPattern12 {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a number:");
 		int num=sc.nextInt();
-		for(int i=num/2; i>=0;i--) {
-			for(int j=i; j<=num/2; j++) {
-				System.out.print(j);
-			}
-			System.out.println(" ");
-		}
-		for(int k=1; k<=num/2; k++) {
-			for(int l=k; l<=num/2; l++) {
-				System.out.print(l);
+		for(int i=num; i>=0;i--) {
+			for(int j=i; j<=num; j++) {					//		Ex: num=3
+				System.out.print(j+" ");				//		3
+			}											//		2 3
+			System.out.println(" ");					//		1 2 3
+		}												//		0 1 2 3
+		for(int k=1; k<=num; k++) {						//		1 2 3
+			for(int l=k; l<=num; l++) {					//		2 3
+				System.out.print(l+" ");				//		3
 			}
 			System.out.println(" ");
 		}

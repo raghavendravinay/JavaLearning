@@ -10,14 +10,14 @@ public class PyramidPattern13 {
 		int num=sc.nextInt();
 		
 		for(int i=(num+1)/2; i>0; i--) {
-			for(int j=i-1; j>0; j--) {
-				System.out.print(" ");
-			}
-			for(int k=i; k<=(num+1)/2; k++) {
-				System.out.print("*");	
-			}
-			System.out.println("");
-		}
+			for(int j=i-1; j>0; j--) {				//ex: num=7
+				System.out.print(" ");				//			*
+			}										//		   **	
+			for(int k=i; k<=(num+1)/2; k++) {		//		  ***
+				System.out.print("*");				//		 ****
+			}										//		  ***
+			System.out.println("");					//		   **
+		}											//          *
 		for(int l=num/2;l>0; l--) {
 			for(int m=l; m<=num/2;m++) {
 				System.out.print(" ");

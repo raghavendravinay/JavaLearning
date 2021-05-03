@@ -9,12 +9,12 @@ public class PyramidPattern18 {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a number:");
 		int num=sc.nextInt();
-		for(int i=num; i>0; i--)
-		{
-			for(int j=i; j<=num; j++)
-			{
-				System.out.print(" ");
-			}
+		for(int i=num; i>0; i--)					//	ex:num=5
+		{											//	* * * * *	
+			for(int j=i; j<=num; j++)				//   * * * *
+			{										//    * * *
+				System.out.print(" ");				//	   * * 
+			}										//	    *
 			for(int k=1; k<=i; k++)
 			{
 				System.out.print("* ");
