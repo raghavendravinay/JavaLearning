@@ -15,8 +15,10 @@ public class PrintIndexOfArray {
 		for(int i=0; i<n;i++) {
 			arr1[i]=sc.nextInt();
 		}
+		System.out.println("Enter searching number");
+		int num=sc.nextInt();
 		for(int j=0; j<n; j++) {
-			if(arr1[j]==5) {
+			if(arr1[j]==num) {
 				arr2[k]=j;
 				l=k;
 				k++;
