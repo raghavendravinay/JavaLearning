@@ -14,9 +14,8 @@ public class FindLargeNumbersFromGivenNumbers7 {
 			if(max<num && num!=-1)
 				max=num;
 			num=sc.nextInt();
-			System.out.println(max);
 		}
-		
+		System.out.println(max);		
 	}
 }
 
