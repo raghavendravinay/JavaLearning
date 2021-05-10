@@ -1,7 +1,11 @@
 package arrays;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * @author RaghavendraVinayM
+ *
+ */
 public class PrintCountOfIndividualCharactersOfArray2 {
 
 	public static void main(String[] args) {
