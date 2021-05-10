@@ -20,7 +20,7 @@ public class PrintCountOfIndividualCharactersOfArray2 {
 		}
 		for(i=0; i<size; i++) {
 			count=1;
-			if(array[i]!=-1) {
+			if(temp[i]!=-1) {
 				for(j=i+1; j<size; j++) {
 					if(temp[i]==temp[j]) {
 						++count;
