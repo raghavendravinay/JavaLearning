@@ -16,7 +16,6 @@ public class FindLargeNumbersFromGivenNumbers8 {
 			}
 			num=sc.nextInt();
 		}
-
 		System.out.println(max);
 	}
 }
