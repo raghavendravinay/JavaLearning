@@ -33,9 +33,9 @@ public class MultiplicationOfTwoDimensionalArrays {
 			}
 		}
 		if(c1==r2) {
-			for(i=0; i<c2; i++) {
-				for(j=0; j<r1; j++) {
-					for(k=0; k<c2; k++) {
+			for(i=0; i<r1; i++) {
+				for(j=0; j<c2; j++) {
+					for(k=0; k<c1; k++) {
 						AB[i][j]=AB[i][j]+(A[i][k]*B[k][j]);
 					}
 				}
