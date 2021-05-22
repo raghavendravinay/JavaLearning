@@ -33,5 +33,6 @@ public class FindAKeyWordFromGivenArrayPresentorNot4 {
 		else {
 			System.out.println("the given key value was not found");
 		}
+		scanner.close();
 	}
 }
