@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Scanner;
 /**
- * This program will allow user to enter values into two 2d arrays and print multiplication of those two array values
+ * This program is allow user to enter values into two 2d arrays and print multiplication of those two array values
  * @author RaghavendraVinayM
  *
  */
