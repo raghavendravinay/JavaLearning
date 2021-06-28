@@ -12,7 +12,7 @@ public class EqualMethodExample {
 		String s2 = new String("Vinay");
 		System.out.println(s1.equals(s2));
 		System.out.println(s1 == s2);
-		String s3 ="Vinay";
+		String s3 = "Vinay";
 		String s4 = "Vinay";
 		System.out.println(s3.equals(s4));
 		System.out.println(s3 == s4);

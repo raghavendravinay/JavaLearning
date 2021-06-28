@@ -2,19 +2,26 @@ package patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * This program to print the Square pattern
+ * @author RaghavendraVinayM
+ *
+ */
+
 public class SquarePattern5 {
 
-	public static void main(String[] args)
-	{
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a number");		// ex: num=5
-		int num=sc.nextInt();						// O X X X X
-		for(int i=1; i<=num; i++) 					// X O X X X
-		{											// X X O X X
-			for(int j=1; j<=num; j++)				// X X X O X
-			{										// X X X X O
-				if(i==j)
-				{
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter a number");		
+		int num = scanner.nextInt();						
+		for(int i = 1; i <= num; i++) 			// ex: num=5		
+		{										// O X X X X	
+			for(int j = 1; j <= num; j++)		// X O X X X		
+			{									// X X O X X	
+				if(i == j)						// X X X O X
+				{								// X X X X O
 					System.out.print("O ");
 				}
 				else {
@@ -23,5 +30,6 @@ public class SquarePattern5 {
 			}
 			System.out.println(" ");
 		}
+		scanner.close();
 	}
 }

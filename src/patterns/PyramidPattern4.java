@@ -2,21 +2,31 @@ package patterns;
 
 import java.util.Scanner;
 
+/**
+ * This program to print the pyramid pattern
+ * @author RaghavendraVinayM
+ *
+ */
+
 public class PyramidPattern4 {
 	
 	public static void main(String[] args) {
-		Scanner sc= new Scanner(System.in);				//	ex:num=5
-		System.out.println("Enter a number:");			//				1
-		int num=sc.nextInt();							//			   123
-		for(int i=1; i<=num; i++) {						//			  12345
-			for(int j=1;j<=num-i; j++) {				//			 1234567
-				System.out.print(" ");					//			123456789
-			}
-			for(int k=1;k<2*i; k++) {
-				System.out.print(k);
-			}
-			System.out.println("");
+		Scanner scanner = new Scanner(System.in);				
+		System.out.println("Enter a number:");		
+		int num = scanner.nextInt();							
+		printPyramidPattern(num);
+		scanner.close();
+	}
+	public static void printPyramidPattern(int num) {
+		
+		for(int i = 1; i <= num; i++) {						
+			for(int j = 1; j <= num - i; j++) {				
+				System.out.print(" ");				//	ex:num=5
+			}										//			1
+			for(int k = 1; k < 2 * i; k++) {		//		   123
+				System.out.print(k);				//		  12345
+			}										//		 1234567
+			System.out.println("");					//		123456789
 		}
 	}
-
 }

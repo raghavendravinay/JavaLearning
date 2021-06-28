@@ -7,6 +7,7 @@ package strings;
 public class PreparationProgram2 {
 
 	public static void main(String[] args) {
+		
 		String[] s1 = {"a", "b", "c", "d"};
 		String[] s2 = { "x", "y", "d"};
 		int size = s1.length + s2.length;
@@ -26,30 +27,28 @@ public class PreparationProgram2 {
 		}
 		System.out.println("All string values");
 		for(int i = 0; i < size; i++) {
-			System.out.print(s3[i]+" ");
+			System.out.print(s3[i] + " ");
 		}
 		System.out.println();
 	
 		for(int i = 0; i < size; i++) {
 			count = 1;
 			if(!s4[i].equals("-1")) {
-				for(int j = i+1; j < size; j++) {
+				for(int j = i + 1; j < size; j++) {
 					if(s4[i] == s4[j]) {
 						++count;
 						s4[j] = "-1";
 					}
 				}
-				num[k++]=count;
+				num[k++] = count;
 			}
 		}
-		k=0;
+		k = 0;
 		System.out.println("Unique string values");
 		for(int i = 0; i < size; i++) {
 			if(!s4[i].equals("-1")) {
-				System.out.print(s4[i]+" ");
+				System.out.print(s4[i] + " ");
 			}
 		}
-
-
 	}
 }

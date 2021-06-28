@@ -8,15 +8,17 @@ import java.util.Scanner;
 public class StringPalindrome {
 
 	public static void main(String[] args) {
+		
 		String original = null;
-		String rev = null;
+		String rev = "";
 		System.out.println("Enter String to reverese");
 		Scanner scanner = new Scanner(System.in);
 		original = scanner.next();
 		int len = original.length();
-		for(int i=len-1; i>=0; i--) {
-			rev=rev+original.charAt(i);
+		for(int i = len-1 ; i >= 0; i--) {
+			rev = rev + original.charAt(i);
 		}
+		System.out.println(rev);
 		if(original.equalsIgnoreCase(rev))
 		System.out.println("Given String is a palindrome");
 		else 

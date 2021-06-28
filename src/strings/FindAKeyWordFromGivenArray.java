@@ -6,25 +6,27 @@ import java.util.Scanner;
  * @author RaghavendraVinayM
  *
  */
-public class FindAKeyWordFromGivenArray 
-{
-	public static void main(String[] args) 
-	{
-		Scanner sc = new Scanner(System.in);
-		String[] s = new String[5];
-		System.out.println("Enter a 5 word sentence");
-		for(int i = 0; i < s.length; i++) 
-		{
-			s[i] = sc.next();
+
+public class FindAKeyWordFromGivenArray {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter array size");
+		int size = scanner.nextInt();
+		String[] s = new String[size];
+		System.out.println("Enter a  sentence");
+		for(int i = 0; i < s.length; i++) {
+			s[i] = scanner.next();
 		}
-		System.out.println("Enter a key word to find from the given senetence");
-		String key = sc.next();
-		for(int i = 0; i < s.length; i++) 
-		{
+		System.out.println("Enter a key word");
+		String key = scanner.next();
+		for(int i = 0; i < s.length; i++) {
 			if(key.equals(s[i])) 
 			{
-				System.out.println("The given key word was found in the given sentence");
+				System.out.println(key + " is found in the given sentence");
 			}
 		}
+		scanner.close();
 	}
 }

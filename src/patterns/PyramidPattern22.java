@@ -2,29 +2,37 @@ package patterns;
 
 import java.util.Scanner;
 
+/**
+ * This program to print the pyramid pattern
+ * @author RaghavendraVinayM
+ *
+ */
+
 public class PyramidPattern22 {
 
-	public static void main(String[] args) {		//		ex:num=5
-		Scanner sc=new Scanner(System.in);			//			1
-		System.out.println("Enter a number:");		//		   2 2
-		int num=sc.nextInt();						//		  3 3 3
-		for(int i=1; i<=num; i++) {					//		 4 4 4 4
-			for(int j=1; j<=num-i; j++) {			//		5 5 5 5 5
-				System.out.print(" ");				//		 4 4 4 4
+	public static void main(String[] args) {		
+													
+		Scanner scanner = new Scanner(System.in);			
+		System.out.println("Enter a number:");		
+		int num = scanner.nextInt();				
+		for(int i = 1; i <= num; i++) {				
+			for(int j = 1; j <= num - i; j++) {		
+				System.out.print(" ");			
+			}										//		ex:num=5
+			for(int k = 1; k <= i; k++) {			//			1
+				System.out.print(i + " ");			//		   2 2
 			}										//		  3 3 3
-			for(int k=1; k<=i; k++) {				//		   2 2
-				System.out.print(i+" ");			//			1
+			System.out.println("");					//		 4 4 4 4
+		}											//		5 5 5 5 5
+		for(int l = 1; l <= num; l++) {				//		 4 4 4 4
+			for(int m = 1; m <= l; m++) {			//		  3 3 3
+				System.out.print(" ");				//		   2 2
+			}										//			1
+			for(int n = num - l; n > 0; n--) {
+				System.out.print(n + " ");
 			}
 			System.out.println("");
 		}
-		for(int l=1; l<=num; l++) {
-			for(int m=1; m<=l; m++) {
-				System.out.print(" ");
-			}
-			for(int n=num-l; n>0; n--) {
-				System.out.print(n+" ");
-			}
-			System.out.println("");
-		}
+		scanner.close();
 	}
 }

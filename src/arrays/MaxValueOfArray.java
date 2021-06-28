@@ -2,24 +2,32 @@ package arrays;
 
 import java.util.Scanner;
 
+/**
+ * This program is to find the maximum number from the given array
+ * @author RaghavendraVinayM
+ *
+ */
+
 public class MaxValueOfArray {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("enter array size");
-		int n=sc.nextInt();
-		int arr[]=new int[n];
+		int n = scanner.nextInt();
+		int arr[] = new int[n];
 		System.out.println("enter values into array");
-		for(int i=0; i<n; i++){
-			arr[i]=sc.nextInt();
+		for(int i = 0; i < n; i++){
+			arr[i] = scanner.nextInt();
 		}
-		int max=arr[0];
-		for(int i=0; i<n-1; i++)
+		int max = arr[0];
+		for(int i = 0; i < n - 1; i++)
 		{
-		if(max<arr[i+1]) {
-			max=arr[i+1];
+		if(max < arr[i + 1]) {
+			max = arr[i + 1];
 		}
 		}
 		System.out.println(max);
-		}
+		scanner.close();
+	}
 }
