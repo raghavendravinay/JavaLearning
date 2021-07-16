@@ -26,7 +26,7 @@ public class FindCountOfIndividualWords {
 						s2[j] = "-1";
 						++count;
 					}
-				}
+				}		// This is is is Pen
 				num[k++] = count;
 			}
 		}
