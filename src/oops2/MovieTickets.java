@@ -7,6 +7,41 @@ public class MovieTickets {
 	private String theater;
 	private int tickets;
 
+	public MovieTickets() {
+
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getMovie() {
+		return movie;
+	}
+
+	public String getTheater() {
+		return theater;
+	}
+
+	public int getTickets() {
+		return tickets;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void setMovie(String movie) {
+		this.movie = movie;
+	}
+
+	public void setTickets(int tickets) {
+		this.tickets = tickets;
+	}
+
+	public void setTheater(String theater) {
+		this.theater = theater;
+	}
 	public MovieTickets(String name, String movie, String theater, int tickets) {
 		this.name = name;
 		this.movie = movie;
@@ -15,7 +50,7 @@ public class MovieTickets {
 	}
 
 	public String toString() {
-		return "Name: " + name + ", Movie Name: " + movie + ", Theater: " + theater + ", Tickets: " + tickets
-				+ ", Price: " + tickets * 200;
+		return name + "\nMovie Name: " + movie + ", Theater: " + theater + ", Tickets: " + tickets
+				+ "\nPrice: " + tickets * 200;
 	}
 }
