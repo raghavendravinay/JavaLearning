@@ -1,19 +1,24 @@
 package oops2;
 
-public class EmergencyClass {
+public class BloodBankClass {
 	public static void main(String[] args) {
 
-		EmergencyNumbers en = new EmergencyNumbers("Police", 100);
-		System.out.println(en);
+		BloodBankBuilder bb = new BloodBankBuilder();
+		BloodBank bbk = new BloodBank("Ravi", "A+", 9494949595l, "Tanuku");
+		bb.addbloodDonorDetails(bbk);
+		BloodBank bbk2 = new BloodBank("Raghav", "B+", 9696949596l, "Hyderabad");
+		bb.addbloodDonorDetails(bbk2);
+		BloodBank bbk3 = new BloodBank("Vinay", "AB+", 9494949595l, "Tanuku");
+		bb.addbloodDonorDetails(bbk3);
+		BloodBank bbk4 = new BloodBank("Vinay", "AB+", 9696949596l, "Hyderabad");
+		bb.addbloodDonorDetails(bbk4);
+		bb.printBloodDonors();
+		bb.removeDonorDetails("Vinay");
+		bb.removeDonorDetails("Vinay");
+		bb.printBloodDonors();
+		System.out.println(bb.getBloodDonor("Raghav"));
+		System.out.println(bb.getBloodDonor("Vinay"));
 
-		EmergencyNumbers en2 = new EmergencyNumbers("ambulance", 108);
-		System.out.println(en2);
-
-		EmergencyNumbers en3 = new EmergencyNumbers("Fire Engine", 101);
-		System.out.println(en3);
-
-		EmergencyNumbers en4 = new EmergencyNumbers("Women Help Line", 1091);
-		System.out.println(en4);
 	}
 
 }
