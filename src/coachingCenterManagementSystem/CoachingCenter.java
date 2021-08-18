@@ -8,7 +8,6 @@ public class CoachingCenter {
 	private String address;
 
 	public CoachingCenter(String name, Course course, long number, String address) {
-		super();
 		this.name = name;
 		this.course = course;
 		this.number = number;
