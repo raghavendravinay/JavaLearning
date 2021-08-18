@@ -6,7 +6,6 @@ public class Course {
 	private String course;
 
 	public Course(int id, String course) {
-		super();
 		this.id = id;
 		this.course = course;
 	}
