@@ -13,7 +13,6 @@ public class JobRegistration {
 	private long number;
 	public JobRegistration(String name, JobRole jobRole, String qualification, int exp, ArrayList<Languages> languages, String address,
 			long number) {
-		super();
 		this.name = name;
 		this.jobRole = jobRole;
 		this.qualification = qualification;
