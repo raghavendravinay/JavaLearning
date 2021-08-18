@@ -8,7 +8,6 @@ public class BloodBank {
 	private String address;
 
 	public BloodBank(String name, BloodGroup bloodGroup, long number, String address) {
-		super();
 		this.name = name;
 		this.bloodGroup = bloodGroup;
 		this.number = number;
