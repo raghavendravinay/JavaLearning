@@ -5,7 +5,6 @@ public class JobRole {
 	private int id;
 	private String jobRole;
 	public JobRole(int id, String jobRole) {
-		super();
 		this.id = id;
 		this.jobRole = jobRole;
 	}
