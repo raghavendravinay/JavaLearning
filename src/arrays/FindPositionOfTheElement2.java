@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class FindPositionOfTheElement2 {
 
-	//find the position of a given number
+	//find the last position of a given number from the array
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
