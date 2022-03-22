@@ -1,7 +1,7 @@
 package collections.arraylist;
 
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class FindMaximumValue_UsingMethods {
 

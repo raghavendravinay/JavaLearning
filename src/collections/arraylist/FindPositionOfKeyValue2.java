@@ -1,7 +1,7 @@
 package collections.arraylist;
 
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * This program is to find the position of the given key value from the ArrayList, when multiple values are present

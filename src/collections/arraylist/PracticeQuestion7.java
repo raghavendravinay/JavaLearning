@@ -1,7 +1,7 @@
 package collections.arraylist;
 
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * This program is to print the count of unique numbers from arraylist

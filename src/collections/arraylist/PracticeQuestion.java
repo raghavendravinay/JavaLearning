@@ -1,7 +1,7 @@
 package collections.arraylist;
 
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * This program is to allow user to enter values into ArrayList except 22.

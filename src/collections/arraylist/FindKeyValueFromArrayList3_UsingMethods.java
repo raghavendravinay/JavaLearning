@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 public class FindKeyValueFromArrayList3_UsingMethods {
 
+	@SuppressWarnings("unused")
 	public static void main(String args[]) {
 		
 		Scanner scanner = new Scanner(System.in);

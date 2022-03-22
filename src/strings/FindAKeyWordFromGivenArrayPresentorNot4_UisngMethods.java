@@ -9,6 +9,7 @@ import java.util.Scanner;
  */
 public class FindAKeyWordFromGivenArrayPresentorNot4_UisngMethods {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
